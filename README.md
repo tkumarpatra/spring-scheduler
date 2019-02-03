@@ -1,6 +1,6 @@
 "# spring-scheduler" 
 
-@Scheduled({options})
+@Scheduled({options}) </br>
 Need to put this at the method level which will in utrn make the framework call this method in regular intervals.
 Options for scheduling
     >   Cron:              A cron-like expression, extending the usual UN*X definition to include triggers on the second as well as 
